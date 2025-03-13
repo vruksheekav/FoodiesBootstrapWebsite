@@ -457,19 +457,36 @@ p{
 .footer .footer-link{
     font-size: 1rem;
     color: var(--white-color);
-    padding: 0 1.875rem;
+    padding: 0 0.5rem;
     
 }
 .footer .footer-link:hover{
     color: var(--white-color) !important;
 }
 .footer a i{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--white-color);
-    padding:0 1rem;
+    padding:0 0.5rem;
 }
 
 .footer p{
-   
     color: var(--white-color);
+}
+
+.footer .footer-link ul,li{
+    list-style: none;
+}
+
+.footer i{
+    color: var(--white-color);
+    font-size: 12px;
+    font-style: none;
+}
+
+.footer h6{
+    font-size: 1.3rem;
+}
+
+.copyright{
+    background-color: var(--primary-color);
 }
